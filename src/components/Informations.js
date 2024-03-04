@@ -2,7 +2,7 @@ import React from 'react';
 
 
 export const Informations = ({ user }) => {
-    const { id, name, DOB, Role } = user//eslint disable
+    const { id, name, DOB, Role } = user;//eslint-disable-line
     return (
         <div className='mt-12'>
 

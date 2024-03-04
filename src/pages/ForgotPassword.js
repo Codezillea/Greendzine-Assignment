@@ -8,7 +8,7 @@ import {  toast } from 'react-toastify';
 export const ForgotPassword = () => {
     const navigate = useNavigate();
     const [datas,setDatas] = useState([]);
-    const [error,setError] = useState(false);//eslint-disable
+    const [error,setError] = useState(false);//eslint-disable-line
     useEffect(() => {
         async function fetchUsers() {
             const response = await fetch(`${process.env.REACT_APP_HOST}/users`);
